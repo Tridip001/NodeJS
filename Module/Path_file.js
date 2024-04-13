@@ -9,6 +9,8 @@ const filePathResolve = path.resolve('Path','new','path.txt');
 console.log(filePath);
 console.log(filePathResolve);
 
+console.log(path.extname(filePathResolve));
+
 fs.readFile(filePath, 'utf-8',(err,data)=>{
  
     if(err){
