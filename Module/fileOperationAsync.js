@@ -9,7 +9,7 @@ fs.readFile('data.txt', (err,data)=>{
         console.log(err);
     }else{
         console.log(data.toString());
-    }
+    } 
 });
 
 //write a file:
